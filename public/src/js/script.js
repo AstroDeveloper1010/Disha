@@ -6,7 +6,7 @@ btn.addEventListener('click', (e) => {
     let isTrue = true;
     const message = messageInput.value;
 
-    const newMessage = document.createElement('p');
+    const newMessage = document.createElement('div');
     if (isTrue) {
         newMessage.className = 'left'
         isTrue = false
