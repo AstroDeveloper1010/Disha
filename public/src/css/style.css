@@ -1,3 +1,37 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
-    background: red;
+  box-sizing: border-box;
+}
+
+.title_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  flex-wrap: wrap;
+}
+
+.title_h1 {
+  color: cadetblue;
+  font-family: cursive;
+  font-weight: 800;
+}
+
+.disha_img {
+  border-radius: 10px;
+  height: 10vh;
+  width: auto;
+  object-fit: cover;
+}
+
+.hr_title {
+  width: 80vw;
+  height: 2px;
+  color: bisque;
+  background-color: bisque;
+  border: none;
 }
