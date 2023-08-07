@@ -12,7 +12,9 @@ btn.addEventListener('click', (e) => {
     if (message !== "") chatDiv.appendChild(newMessage);
 
     messageInput.value = "";
+    chatDiv.scrollTop = chatDiv.scrollHeight;
 });
+
 
 document.addEventListener('keypress', (e) => {
     if (event.keyCode === 13) btn.click();

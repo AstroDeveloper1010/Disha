@@ -1,5 +1,6 @@
 html {
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body {
@@ -49,7 +50,6 @@ body {
   border-top-right-radius: 8px;
   padding: 20px;
   overflow-y: auto;
-  scroll-behavior: smooth;
 }
 
 .left {
@@ -60,9 +60,13 @@ body {
   padding-inline: 15px;
   border-radius: 20px;
   margin-bottom: 1vh;
+  max-width: 40%;
   width: auto;
   height: auto;
+  line-height: 1.8;
   font-family: Arial, Helvetica, sans-serif;
+  word-spacing: normal;
+  overflow-x: hidden;
 }
 
 .right {
@@ -73,8 +77,10 @@ body {
   padding-inline: 15px;
   border-radius: 20px;
   margin-bottom: 1vh;
+  max-width: 40%;
   width: auto;
   height: auto;
+  line-height: 1.8;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -113,4 +119,11 @@ body {
 #send_btn:hover {
   background-color: orangered;
   color: white;
+}
+
+.credit {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 4vh;
+  color: steelblue;
 }
