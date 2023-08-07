@@ -1,7 +1,11 @@
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 body {
   box-sizing: border-box;
   background-color: aliceblue;
-  overflow: hidden;
 }
 
 /* *************************** title_div ******************************** */
@@ -59,10 +63,10 @@ body {
   max-width: 40%;
   width: auto;
   height: auto;
-  line-height: 1.8;
   font-family: Arial, Helvetica, sans-serif;
   word-spacing: normal;
   overflow-x: hidden;
+  line-height: 1.8;
 }
 
 .right {

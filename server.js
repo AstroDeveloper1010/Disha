@@ -10,9 +10,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 const pathfile = path.join(__dirname, 'public');
+
 app.get('/', (req, res) => {
     res.sendFile(`${pathfile}/index.html`)
-})
+});
 
 const port = process.env.PORT || 4000;
 
