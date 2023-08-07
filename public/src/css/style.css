@@ -48,6 +48,11 @@ body {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   padding: 20px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color: orange;
+  scroll-snap-type: proximity;
+  scrollbar-arrow-color: orange ;
 }
 
 .left {
