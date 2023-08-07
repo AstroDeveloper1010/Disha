@@ -1,11 +1,7 @@
-html {
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
 body {
   box-sizing: border-box;
   background-color: aliceblue;
+  overflow: hidden;
 }
 
 /* *************************** title_div ******************************** */
